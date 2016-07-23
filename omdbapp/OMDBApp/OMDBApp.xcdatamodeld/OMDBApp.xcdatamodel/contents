@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Movie" representedClassName="OMDBApp.Movie" syncable="YES">
+        <attribute name="actors" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="awards" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="director" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="genre" attributeType="String" syncable="YES"/>
+        <attribute name="imdbID" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="imdbRating" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="imdbVotes" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="metascore" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="plot" attributeType="String" defaultValueString="N/A" syncable="YES"/>
+        <attribute name="poster" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="runtime" attributeType="String" syncable="YES"/>
+        <attribute name="title" attributeType="String" syncable="YES"/>
+        <attribute name="writer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Movie" positionX="-63" positionY="-18" width="128" height="285"/>
+    </elements>
+</model>
