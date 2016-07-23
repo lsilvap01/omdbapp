@@ -91,10 +91,8 @@
 		0B53E2ED1D4159CD004B5B51 /* OMDBApp */ = {
 			isa = PBXGroup;
 			children = (
-				0B53E3281D4289FD004B5B51 /* Movie.swift */,
-				0B53E31B1D416B64004B5B51 /* OMDBApi.swift */,
-				0B53E3211D419CA0004B5B51 /* SearchResult.swift */,
-				0B53E3241D41BDAB004B5B51 /* SearchPagination.swift */,
+				0B53E32F1D42FD93004B5B51 /* Entities */,
+				0B53E32E1D42FD7E004B5B51 /* OMDBService */,
 				0B53E2F01D4159CD004B5B51 /* AppDelegate.swift */,
 				0B53E32C1D42ADEA004B5B51 /* MovieCollectionTableViewController.swift */,
 				0B53E31F1D419441004B5B51 /* MoviesTableViewController.swift */,
@@ -131,6 +129,24 @@
 				0B53E3081D4159CD004B5B51 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B53E32E1D42FD7E004B5B51 /* OMDBService */ = {
+			isa = PBXGroup;
+			children = (
+				0B53E31B1D416B64004B5B51 /* OMDBApi.swift */,
+				0B53E3211D419CA0004B5B51 /* SearchResult.swift */,
+				0B53E3241D41BDAB004B5B51 /* SearchPagination.swift */,
+			);
+			name = OMDBService;
+			sourceTree = "<group>";
+		};
+		0B53E32F1D42FD93004B5B51 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0B53E3281D4289FD004B5B51 /* Movie.swift */,
+			);
+			name = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,6 +453,7 @@
 				0B53E30F1D4159CD004B5B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B53E3101D4159CD004B5B51 /* Build configuration list for PBXNativeTarget "OMDBAppTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +462,7 @@
 				0B53E3121D4159CD004B5B51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
