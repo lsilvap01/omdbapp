@@ -12,7 +12,7 @@ import UIKit
 class OMDBApi {
     static let sharedInstance = OMDBApi()
     
-    let baseURL = "http://www.omdbapi.com/?r=json&type=movie"
+    let baseURL = "http://www.omdbapi.com/?r=json&type=movie&apikey=af8feb0e"
     
     func search(title:String, _page:Int, onCompletion:([SearchResult], Int, NSError?)->Void) {
         var page = _page
